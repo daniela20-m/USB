@@ -1,38 +1,15 @@
-package calculadora;
+package principio4;
 
 /**
  *
- * @author danie_d8mi
+ * @author danie
  */
 public class Principal {
-
-    public static int sumar (int a, int b){
-        return a+b;
-    }
-    
-    public static int resta (int a, int b){
-        return a-b;
-    }
-    
-    public static int multiplicacion (int a, int b){
-        return a*b;
-    }
-    
-    public static float division (float a, float b){
-        float div=0;
-        try{
-            div=a/b;
-        } catch (ArithmeticException e) {
-            System.out.print("No se puede dividir entre cero");
-        } 
-        return div; 
-    }
-    
     public static void main(String[] args) {
-        System.out.println("Suma= "+sumar(10, 20));
-        System.out.println("Resta= "+resta(10, 20));
-        System.out.println("Multiplicacion= "+multiplicacion(10, 20));
-        System.out.println("Division= "+division(10, 5));
+        Leon Mufasa = new Leon();
+        
+        Mufasa.nacimiento_mama();
+        Mufasa.sound();
+        Mufasa.sleep();
     }
-    
 }
