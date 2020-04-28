@@ -1,1 +1,67 @@
-# USB
+## Aquitectura y Patrones de Software.
+En esta clase desarrollamos  proyectos, donde se aplican diferentes patrones y principios SOLID.
+|        Proyecto        |Nombre                |Lenguaje                         |
+|----------------|-------------------------------|-----------------------------|
+|Proyecto 1 |Calculadora|Java
+|Principio 1 |  responsabilidad unica | Java
+| Principio 2 | abierto-cerrado | Java
+| Principio 3 | sustitución de Liskov | Java
+| Principio 4 | segregación de interfaces | Java
+| Principio 5 | inversión de dependencias | Java
+| Proyecto del Semestre  | Portal Games | Java
+
+## Proyecto 1. Calculadora.
+Se desarrollo una calculadora con funciones basicas (suma, resta, multiplicación y división).
+
+## Principios SOLID
+## Principio 1.
+*S: Principio de responsabilidad única (Single responsibility principle)*
+
+## Principio 2.
+*O: Principio de abierto/cerrado (Open/closed principle)*
+
+## Principio 3.
+*L: Principio de sustitución de Liskov (Liskov substitution principle)*
+
+## Principio 4.
+*I: Principio de segregación de la interfaz  (Interface segregation principle)* 
+
+## Principio 5.
+*D: Principio de inversión de la dependencia (Dependency inversion principle)* 
+
+![](https://tech.tribalyte.eu/wp-content/uploads/2018/02/Solid-1.png)
+
+## Proyecto del Semestre.
+- Requerimientos funcionales
+
+|        Codigo        |Nombre                |Descripcion                         |
+|----------------|-------------------------------|-----------------------------|
+|RF01 | Iniciar sesión | Iniciar sesión mediante un usuario/correo y contraseña. |
+|RF02 | Registrar usuario | Llenar formulario de registro para crear usuario en la plataforma. |
+|RF03 | Recuperar contraseña | Mediante un código enviado por correo electrónico, se ingresa el código en la aplicación para modificar la contraseña. |
+|RF04 | Modificar perfil | Cada usuario puede modificar ciertos datos y opciones según convenga. |
+|RF05 | Consultar juego en la tienda | Se cargará un listado filtrado por categoría de juego para comprar. |
+|RF06 | Comprar juego | Dependiendo de las monedas que tenga el usuario, podrá comprar los juegos que desee. |
+|RF07 | Recargar monedas | Mediante un código ingresado por el usuario en la aplicación, o por parte del administrador, se le otorgan monedas al usuario. |
+|RF08 | Cargar juegos en biblioteca | Cuando el usuario compre un juego se añadirá a la biblioteca disponible para jugar. |
+|RF09 | Jugar juego en biblioteca | Mediante la selección del juego se añade. |
+|RF010 | Tablero de juego | Una vez se haya marcado un hito en un juego, se registrarán las estadísticas tales como: tiempo jugado, puntaje, nivel, experiencia. |
+|RF011 | Ver estadísticas de usuario | Se registrará un listado de estadísticas tales como: juego, tiempo jugado, puntaje, nivel, experiencia de todos los juegos visitados por el usuario. |
+|RF012 | Recompensas | Por cada hito importante alcanzado en un juego, se recargarán monedas a la cuenta del usuario o el administrador publicará llaves únicas periódicamente el cual valen para desbloquear un juego gratis. |
+|RF013 | Añadir amigos | Se consultará un listado de usuarios el cual se podrán añadir siempre y cuando el usuario añadido acepte la solicitud. |
+|RF014 | Ver estadísticas de amigos | Una vez 2 usuarios sean amigos se podrá ver las estadísticas individuales y se hará una comparativa de las estadísticas propias. |
+|RF015 | Chat local | Una vez 2 usuarios sean amigos se podrá activar una ventana de chat, el cual podrán conversar desde 2 computadores simultáneamente. |
+|RF016 | Enviar correo | Por cada “transacción” se enviará un correo electrónico a la cuenta registrada en la plataforma. |
+
+- Requerimientos no funcionales
+
+|        Codigo        |Nombre                |Descripcion                         |
+|----------------|-------------------------------|-----------------------------|
+|RFN01 | Interfaz grafica | Iniciar sesión mediante un usuario/correo y contraseña. |
+|RFN02 | Manuales | El programa debe contar con manuales de usuario para aprender el uso de la plataforma. |
+|RFN03 | Patrones | Se debe desarrollar el programa mediante patrones (Pizarrón y capas o cliente-servidor). |
+|RFN04 | Lenguaje de programación | Se debe desarrollar en el lenguaje de programación JAVA, siguiendo los estándares de patrones de arquitectura y estructuras de datos. |
+|RFN05 | Herramientas de desarrollo | Se debe usar el IDE Netbeans o Eclipse para el desarrollo de la aplicación. |
+|RFN06 | Persistencia de datos | El programa debe contar con persistencia de datos en un motor de base de datos tales como MySQL, Oracle o MariaDB. |
+|RFN07 | Usabilidad | Todas las interfaces deben ser de fácil manejo e intuitivas para el usuario final. |
+|RFN08 | Contenido multimedia | El programa debe tener contenido multimedia para referenciar los juegos a los que se hacen alusión. |
