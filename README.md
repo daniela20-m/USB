@@ -56,7 +56,7 @@ Se desarrollo una calculadora con funciones basicas (suma, resta, multiplicació
 
 ## Proyecto del Semestre.
 
-* Descripcion del problema.
+## *Descrepcion del problema.
 En las plataformas de videojuegos no hay un sistema que permita el acceso a una información detallada de las estadísticas del jugador respecto a varios juegos probados, de igual forma los usuarios no pueden compartir detalles de su progreso.
 Así mismo, no hay variedad de contenido en diferentes temáticas de tal forma que la experiencia del usuario no cumple las expectativas para jugar variedad de títulos.
 
