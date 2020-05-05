@@ -41,9 +41,11 @@ En esta clase desarrollamos  proyectos, donde se aplican diferentes patrones y p
 ## Patrones Creacionales
 * Abstract factory: el problema que intenta solucionar es: la creación de diferentes familias de objetos relacionados o que dependen entre si, sin especificar sus clases concretas. Permite trabajar con objetos de distintas familias de manera que las familias no se mezclen entre si y haciendo transparente el tipo de familia concreta que se esta usando.
 
-*Builder.
-- El objetivo es conseguir que la construcción de un objeto compuesto sea independiente de su representación, de manera que la construcción no se vea afectada por el hecho de que cambie su forma de representación.
-Intención
+* Builder : El objetivo es conseguir que la construcción de un objeto compuesto sea independiente de su representación, de manera que la construcción no se vea afectada por el hecho de que cambie su forma de representación.
+
+* Factory Method : 
+Este es un patrón que se ocupa en la creación de objetos, sin especificar la clase de objeto que se crear. Factory method se ocupa del problema mediante la definición de un método para crear los objetos.
+Introducción
 
 ## Calculadora
 Se desarrollo una calculadora con funciones basicas (suma, resta, multiplicación y división).
