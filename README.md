@@ -34,8 +34,7 @@ Se desarrollo una calculadora con funciones basicas (suma, resta, multiplicació
 ![](https://tech.tribalyte.eu/wp-content/uploads/2018/02/Solid-1.png)
 
 ## Patrones Creacionales
-* Abstract factory
-Este es un patrón creacional, el problema que intenta solucionar es: la creación de diferentes familias de objetos relacionados o que dependen entre si, sin especificar sus clases concretas. Permite trabajar con objetos de distintas familias de manera que las familias no se mezclen entre si y haciendo transparente el tipo de familia concreta que se esta usando.
+* Abstract factory: el problema que intenta solucionar es: la creación de diferentes familias de objetos relacionados o que dependen entre si, sin especificar sus clases concretas. Permite trabajar con objetos de distintas familias de manera que las familias no se mezclen entre si y haciendo transparente el tipo de familia concreta que se esta usando.
 
 ## Proyecto del Semestre.
 - Requerimientos funcionales
