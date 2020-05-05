@@ -1,6 +1,6 @@
 ## Aquitectura y Patrones de Software.
 En esta clase desarrollamos  proyectos, donde se aplican diferentes patrones y principios SOLID.
-|        Proyecto        |Nombre                |Lenguaje                         ||        Carpeta	|Contenido	|
+|        CARPETA  | CONTENIDO |
 |----------------|-------------------------------|
 |CORTE 1 | Tarea 1 | 
 | CORTE 2 | Tarea 1 | 
