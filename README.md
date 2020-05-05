@@ -1,14 +1,11 @@
 ## Aquitectura y Patrones de Software.
 En esta clase desarrollamos  proyectos, donde se aplican diferentes patrones y principios SOLID.
-|        Proyecto        |Nombre                |Lenguaje                         |
-|----------------|-------------------------------|-----------------------------|
-|Proyecto 1 |Calculadora|Java
-|Principio 1 |  responsabilidad unica | Java
-| Principio 2 | abierto-cerrado | Java
-| Principio 3 | sustitución de Liskov | Java
-| Principio 4 | segregación de interfaces | Java
-| Principio 5 | inversión de dependencias | Java
-| Proyecto del Semestre  | Portal Games | Java
+|        Proyecto        |Nombre                |Lenguaje                         ||        Carpeta	|Contenido	|
+|----------------|-------------------------------|
+|CORTE 1 | Tarea 1 | 
+| CORTE 2 | Tarea 1 | 
+| CORTE 3 | Principios SOLID, Patrones Creacionales | 
+| PROYECTO| .java |
 
 ## Proyecto 1. Calculadora.
 Se desarrollo una calculadora con funciones basicas (suma, resta, multiplicación y división).
