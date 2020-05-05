@@ -45,7 +45,10 @@ En esta clase desarrollamos  proyectos, donde se aplican diferentes patrones y p
 
 * Factory Method : 
 Este es un patrón que se ocupa en la creación de objetos, sin especificar la clase de objeto que se crear. Factory method se ocupa del problema mediante la definición de un método para crear los objetos.
-Introducción
+
+* Prototype : El objetivo es ahorrar recursos con la creación de objetos, la manera mas eficiente de tener los objetos sin crearlos de nuevo es clonándolos.
+
+* Singleton :Este es un patrón que garantiza que una clase solo tenga una única instancia, y provee un punto de acceso global a esta, haciendo así que todos los objetos utilicen una instancia de la clase, utilicen la misma instancia.
 
 ## Calculadora
 Se desarrollo una calculadora con funciones basicas (suma, resta, multiplicación y división).
