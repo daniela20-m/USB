@@ -1,5 +1,10 @@
-## Aquitectura y Patrones de Software.
+* Daniela Arenas Monroy
+* Universidad San Buenaventura
+
+## ARQUITECURA Y PATRONES DE SOFTWARE
+
 En esta clase desarrollamos  proyectos, donde se aplican diferentes patrones y principios SOLID.
+
 |        CARPETA  | CONTENIDO |
 |----------------|-------------------------------|
 |CORTE 1 | Tarea 1 | 
@@ -7,8 +12,8 @@ En esta clase desarrollamos  proyectos, donde se aplican diferentes patrones y p
 | CORTE 3 | Principios SOLID, Patrones Creacionales, Calculadora |
 | PROYECTO| .java |
 
-## Proyecto 1. Calculadora.
-Se desarrollo una calculadora con funciones basicas (suma, resta, multiplicación y división).
+## Corte 1.
+* Tarea 1. 
 
 ## CORTE 2
 *Tarea 1.
@@ -36,7 +41,17 @@ Se desarrollo una calculadora con funciones basicas (suma, resta, multiplicació
 ## Patrones Creacionales
 * Abstract factory: el problema que intenta solucionar es: la creación de diferentes familias de objetos relacionados o que dependen entre si, sin especificar sus clases concretas. Permite trabajar con objetos de distintas familias de manera que las familias no se mezclen entre si y haciendo transparente el tipo de familia concreta que se esta usando.
 
+## Calculadora
+Se desarrollo una calculadora con funciones basicas (suma, resta, multiplicación y división).
+
+
 ## Proyecto del Semestre.
+
+* Descripcion del problema.
+En las plataformas de videojuegos no hay un sistema que permita el acceso a una información detallada de las estadísticas del jugador respecto a varios juegos probados, de igual forma los usuarios no pueden compartir detalles de su progreso.
+Así mismo, no hay variedad de contenido en diferentes temáticas de tal forma que la experiencia del usuario no cumple las expectativas para jugar variedad de títulos.
+
+
 - Requerimientos funcionales
 
 |        Codigo        |Nombre                |Descripcion                         |
