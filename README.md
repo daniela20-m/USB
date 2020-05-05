@@ -16,7 +16,7 @@ En esta clase desarrollamos  proyectos, donde se aplican diferentes patrones y p
 * Tarea 1. 
 
 ## CORTE 2
-*Tarea 1.
+* Tarea 1.
 
 ## CORTE 3
 
