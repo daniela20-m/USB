@@ -1,7 +1,7 @@
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
- * Universidad de los Andes (Bogotá - Colombia)
- * Departamento de Ingeniería de Sistemas y Computación 
+ * Universidad de los Andes (BogotÃ¡ - Colombia)
+ * Departamento de IngenierÃ­a de Sistemas y ComputaciÃ³n 
  * Licenciado bajo el esquema Academic Free License version 2.1 
  *
  * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
@@ -27,22 +27,22 @@ public class EmpresaTransporte {
 	// -----------------------------------------------------------------
 
 	/**
-	 * Camión 1 de la empresa.
+	 * CamiÃ³n 1 de la empresa.
 	 */
 	private Camion camion1;
 
 	/**
-	 * Camión 2 de la empresa.
+	 * CamiÃ³n 2 de la empresa.
 	 */
 	private Camion camion2;
 
 	/**
-	 * Camión 3 de la empresa.
+	 * CamiÃ³n 3 de la empresa.
 	 */
 	private Camion camion3;
 
 	/**
-	 * Camión 4 de la empresa.
+	 * CamiÃ³n 4 de la empresa.
 	 */
 	private Camion camion4;
 
@@ -53,10 +53,10 @@ public class EmpresaTransporte {
 	/**
 	 * Crea una nueva empresa de transporte con 4 camiones. <br>
 	 * <b>post: </b> Los camiones fueron creados con los siguientes valores: <br>
-	 * Camión 1: Matrícula: BAC213, Capacidad (en Kgs): 150, Consumo: 85. <br>
-	 * Camión 2: Matrícula: CAP384, Capacidad (en Kgs): 190, Consumo: 70. <br>
-	 * Camión 3: Matrícula: GER273, Capacidad (en Kgs): 280, Consumo: 100. <br>
-	 * Camión 4: Matrícula: JKV232, Capacidad (en Kgs): 215, Consumo: 110.
+	 * CamiÃ³n 1: MatrÃ­cula: BAC213, Capacidad (en Kgs): 150, Consumo: 85. <br>
+	 * CamiÃ³n 2: MatrÃ­cula: CAP384, Capacidad (en Kgs): 190, Consumo: 70. <br>
+	 * CamiÃ³n 3: MatrÃ­cula: GER273, Capacidad (en Kgs): 280, Consumo: 100. <br>
+	 * CamiÃ³n 4: MatrÃ­cula: JKV232, Capacidad (en Kgs): 215, Consumo: 110.
 	 */
 	public EmpresaTransporte() {
 		camion1 = new Camion("BAC213", 150, 85);
@@ -67,52 +67,52 @@ public class EmpresaTransporte {
 	}
 
 	// -----------------------------------------------------------------
-	// Métodos
+	// MÃ©todos
 	// -----------------------------------------------------------------
 
 	/**
-	 * Retorna el camión 1.
+	 * Retorna el camiÃ³n 1.
 	 * 
-	 * @return Camión 1.
+	 * @return CamiÃ³n 1.
 	 */
 	public Camion darCamion1() {
 		return camion1;
 	}
 
 	/**
-	 * Retorna el camión 2.
+	 * Retorna el camiÃ³n 2.
 	 * 
-	 * @return Camión 2.
+	 * @return CamiÃ³n 2.
 	 */
 	public Camion darCamion2() {
 		return camion2;
 	}
 
 	/**
-	 * Retorna el camión 3.
+	 * Retorna el camiÃ³n 3.
 	 * 
-	 * @return Camión 3.
+	 * @return CamiÃ³n 3.
 	 */
 	public Camion darCamion3() {
 		return camion3;
 	}
 
 	/**
-	 * Retorna el camión 4.
+	 * Retorna el camiÃ³n 4.
 	 * 
-	 * @return Camión 4.
+	 * @return CamiÃ³n 4.
 	 */
 	public Camion darCamion4() {
 		return camion4;
 	}
 
 	/**
-	 * Carga el camión con la matricula dada y carga dada por parámetro. <br>
-	 * <b>post: </b> El camión tiene la carga dada.
+	 * Carga el camiÃ³n con la matricula dada y carga dada por parÃ¡metro. <br>
+	 * <b>post: </b> El camiÃ³n tiene la carga dada.
 	 * 
-	 * @param pMatricula Matrícula del camión. pMatricula != null && pMatricula !=
+	 * @param pMatricula MatrÃ­cula del camiÃ³n. pMatricula != null && pMatricula !=
 	 *                   "".
-	 * @param pPesoCarga Peso de la carga para cargar el camión. pPesoCarga > 0.
+	 * @param pPesoCarga Peso de la carga para cargar el camiÃ³n. pPesoCarga > 0.
 	 * @return Retorna true si pudo realizar la carga, false en caso contrario.
 	 */
 	public boolean cargarCamion(String pMatricula, int pPesoCarga) {
@@ -134,11 +134,11 @@ public class EmpresaTransporte {
 	}
 
 	/**
-	 * Verifica el consumo de gasolina del camión con la matricula dada por parámetro. <br>
-	 * <b>post: </b> El camión tiene consumo dado.
+	 * Verifica el consumo de gasolina del camiÃ³n con la matricula dada por parÃ¡metro. <br>
+	 * <b>post: </b> El camiÃ³n tiene consumo dado.
 	 * 
-	 * @param pMatricula Matrícula del camión. pMatricula != null && pMatricula != "".
-	 * @return Retorna double si la matrícula como parámetro es igual a uno de los camiones creados, en caso contrario retorna 0.
+	 * @param pMatricula MatrÃ­cula del camiÃ³n. pMatricula != null && pMatricula != "".
+	 * @return Retorna double si la matrÃ­cula como parÃ¡metro es igual a uno de los camiones creados, en caso contrario retorna 0.
 	 */
 	public double consumoGasolina(String pMatricula) {
 		double consumo = 0;
@@ -158,10 +158,10 @@ public class EmpresaTransporte {
 	}
 
 	/**
-	 * Descarga el camión con la matrícula dada por parámetro. <br>
-	 * <b>post: </b> El camión no tiene carga.
+	 * Descarga el camiÃ³n con la matrÃ­cula dada por parÃ¡metro. <br>
+	 * <b>post: </b> El camiÃ³n no tiene carga.
 	 * 
-	 * @param pMatricula Matrícula del camión. pMatricula != null && pMatricula !=
+	 * @param pMatricula MatrÃ­cula del camiÃ³n. pMatricula != null && pMatricula !=
 	 *                   "".
 	 */
 	public void descargarCamion(String pMatricula) {
@@ -196,9 +196,9 @@ public class EmpresaTransporte {
 	}
 
 	/**
-	 * Retorna la carga promedio por camión.
+	 * Retorna la carga promedio por camiÃ³n.
 	 * 
-	 * @return Carga promedio por camión.
+	 * @return Carga promedio por camiÃ³n.
 	 */
 	public double calcularCargaPromedio() {
 		double promedio = (double) (darCargaTotal() / 4);
@@ -211,7 +211,7 @@ public class EmpresaTransporte {
 	 * @return Consumo total de gasolina de los camiones
 	 */
 	public Double darConsumoTotal() {
-		String valor = JOptionPane.showInputDialog(null, "Ingresa la matrícula del camión.)", "Buscar consumo y precio",
+		String valor = JOptionPane.showInputDialog(null, "Ingresa la matrÃ­cula del camiÃ³n.)", "Buscar consumo y precio",
 				JOptionPane.DEFAULT_OPTION);
 		double precio = 0;
 		if (valor != null) {
@@ -227,19 +227,19 @@ public class EmpresaTransporte {
 			} else if (valor.equals(camion4.darMatricula())) {
 				precio = camion4.darConsumo() * 9702;
 			} else {
-				JOptionPane.showMessageDialog(null, "¡La matrícula ingresada del camión no existe!");
+				JOptionPane.showMessageDialog(null, "Â¡La matrÃ­cula ingresada del camiÃ³n no existe!");
 			}
 		}
 		return precio;
 	}
 
 	/**
-	 * Retorna el mejor camión para transportar la carga especificada. <br>
-	 * El mejor camión es aquel que tiene la capacidad para cargar la carga dada y
-	 * además tiene un menor consumo de gasolina.
+	 * Retorna el mejor camiÃ³n para transportar la carga especificada. <br>
+	 * El mejor camiÃ³n es aquel que tiene la capacidad para cargar la carga dada y
+	 * ademÃ¡s tiene un menor consumo de gasolina.
 	 * 
 	 * @param pPesoCarga Peso de la carga a transportar. pPesoCarga > 0.
-	 * @return Camión ideal para llevar la carga. Si ningún camión es apto para la
+	 * @return CamiÃ³n ideal para llevar la carga. Si ningÃºn camiÃ³n es apto para la
 	 *         carga retorna null.
 	 */
 	public Camion darMejorCamion(int pPesoCarga) {
@@ -265,11 +265,11 @@ public class EmpresaTransporte {
 	}
 
 	// -----------------------------------------------------------------
-	// Puntos de Extensión
+	// Puntos de ExtensiÃ³n
 	// -----------------------------------------------------------------
 
 	/**
-	 * Método para la extensión2.
+	 * MÃ©todo para la extensiÃ³n2.
 	 * 
 	 * @return Respuesta 2.
 	 */
