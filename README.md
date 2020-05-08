@@ -13,12 +13,13 @@ En esta clase desarrollamos  proyectos, donde se aplican diferentes patrones y p
 | PROYECTO| .java |
 
 ## Corte 1.
+* Codigo de los Andes.
+Se hicieron cambios del codigo original, como iconografia, y se modifico un boton con una nueva funcionalidad.
+
 * Tarea 1. 
 
 ## CORTE 2
 * Tarea 1.
-
-## CORTE 3
 
 ## Principios SOLID
 ## Principio 1.
@@ -37,6 +38,8 @@ En esta clase desarrollamos  proyectos, donde se aplican diferentes patrones y p
 *D: Principio de inversión de la dependencia (Dependency inversion principle)* 
 
 ![](https://tech.tribalyte.eu/wp-content/uploads/2018/02/Solid-1.png)
+
+## CORTE 3
 
 ## Patrones Creacionales
 * Abstract factory: el problema que intenta solucionar es: la creación de diferentes familias de objetos relacionados o que dependen entre si, sin especificar sus clases concretas. Permite trabajar con objetos de distintas familias de manera que las familias no se mezclen entre si y haciendo transparente el tipo de familia concreta que se esta usando.
