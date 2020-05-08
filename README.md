@@ -7,9 +7,9 @@ En esta clase desarrollamos  proyectos, donde se aplican diferentes patrones y p
 
 |        CARPETA  | CONTENIDO |
 |----------------|-------------------------------|
-|CORTE 1 | Tarea 1 | 
-| CORTE 2 | Tarea 1 | 
-| CORTE 3 | Principios SOLID, Patrones Creacionales, Calculadora |
+|CORTE 1 | Codigo de los Andes, Tarea 1 |
+| CORTE 2 | Principios SOLID, Tarea 1 | 
+| CORTE 3 | Patrones Creacionales, Calculadora |
 | PROYECTO| .java |
 
 ## Corte 1.
